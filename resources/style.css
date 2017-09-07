@@ -1,0 +1,447 @@
+/* Universal Styles */
+
+html  {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+
+
+.main-content  {
+    width: 1200px;
+    border: 1px black solid;
+}
+
+
+
+/* Header */
+
+header  {
+    display: flex;
+    align-items: center;
+    width: 100%
+    height: 69px;
+    background-color: white;
+  }
+
+  .colmar  {
+    color: dimgrey;
+    font-weight:bold;
+  }
+
+  .academy  {
+    color: lightgrey;
+    font-weight: lighter;
+  }
+
+.logo  {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding-left: 30px;
+  }
+
+.logo img  {
+    padding-left: 10px;
+    height: 50px;
+    margin-right: 12px;
+}
+
+ a  {
+    text-decoration: none;
+    color: dimgrey;
+}
+
+nav span  {
+     display: inline;
+     padding: 20px 10px;
+}
+
+
+
+header .mobile  {
+    display: none;
+}
+
+@media only screen and (max-width: 760px) {
+  header .desktop {
+    display: none;
+  }
+
+  header .mobile {
+    display: block;
+    width: 100%;
+  }
+
+  header .content {
+    padding: .5rem 0;
+  }
+
+  header .mobile ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  header .mobile li {
+    padding: 0;
+  }
+
+  header .mobile .button {
+    padding: .1875rem .5rem;
+    background-color: #9dc20b;
+    line-height: 1.6;
+    color: white;
+  }
+}
+
+
+
+/* top row, learn something */
+
+
+.learnsomething  {
+    display: flex;
+    background-color: lightgrey;
+    color: Dimgrey;
+}
+
+
+.learnsomething img  {
+    height: 60%;
+    width: 60%;
+    padding: 32px 24px;
+}
+
+.text-container  {
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.learnsomething .button  {
+    text-align: center;
+    background-color: dimgrey;
+    color: white;
+    padding: 8px 0px;
+    height: 20px;
+    width: 250px;
+
+}
+
+.learnsomething h1  {
+    width: 100%;
+    font-size: 36px;
+}
+
+.learnsomething p  {
+    width: 100%;
+    font-size: 30px;
+
+}
+
+
+
+
+
+
+
+/* second row, practicing */
+
+.practicing  {
+    display: block;
+    background-color: white;
+    width: 100%;
+}
+
+.practicing img  {
+    width: 60%;
+    height: 60%;
+    padding: 32px 24px;
+}
+
+.practicing-text  {
+    display: block;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 24px;
+    color: dimgrey;
+}
+
+
+
+
+
+
+
+
+
+/* second row, list on the right */
+
+.rightlist  {
+    display: flex;
+    float: right;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+    border: 1px black solid;
+}
+
+.orientation  {
+    display: block;
+    width: 40%;
+    justify-content: center;
+    align-content: center;
+    height: auto;
+    padding: 16px;
+}
+
+.orientation img  {
+    display: block;
+    width: 35%;
+    height: auto;
+}
+
+.orientation-content  {
+    display: block;
+    width: 65%;
+    justify-content: center;
+    align-content: center;
+    font-size: 12px;
+    color: dimgrey;
+}
+.campus  {
+    display: block;
+    height: auto;
+    padding: 16px;
+    width: 40%;
+}
+
+.campus img  {
+    display: block;
+    width: 35%;
+    height: auto;
+}
+
+.campus-content  {
+    display: block;
+    justify-content: center;
+    align-content: center;
+    font-size: 12px;
+    color: dimgrey;
+    width: 65%;
+}
+
+.lecture  {
+    display: block;
+    height: auto;
+    background-color: lightgrey;
+    padding: 16px;
+    width: 40%;
+}
+
+.lecture img  {
+    display: block;
+    width: 35%;
+    height: auto;
+
+
+}
+.lecture-content  {
+    display: block;
+    width: 65%;
+    justify-content: center;
+    align-content: center;
+    font-size: 12px;
+    color: dimgrey;
+}
+
+
+
+
+
+
+/* 3rd row, classes gallery */
+
+.images-container  {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: auto;
+    background-color: lightgrey;
+    color: dimgrey;
+    padding: 72px;
+
+}
+
+.title  {
+    background-color: lightgrey;
+    color: dimgrey;
+    padding: 24px;
+
+}
+
+.software  {
+    height: auto;
+    background-color: white;
+    width: 30%;
+
+}
+
+.software img  {
+      padding: 32px;
+      height: auto;
+}
+
+.computer  {
+    height: auto;
+    background-color: white;
+    width: 30%;
+}
+
+.computer img  {
+      padding: 32px;
+      height: auto;
+}
+
+.design  {
+    height: auto;
+    background-color: white;
+    width: 30%;
+}
+
+.design img  {
+      height: auto;
+      padding: 32px;
+}
+
+.data  {
+    height: auto;
+    background-color: white;
+    width: 30%;
+}
+
+.data img  {
+    padding: 32px;
+    height: auto;
+}
+
+.business  {
+    height: auto;
+    background-color: white;
+    width: 30%;
+}
+
+.business img  {
+    padding: 32px;
+    height: auto;
+}
+
+.marketing  {
+    height: auto;
+    background-color: white;
+    width: 30%;
+}
+
+.marketing img  {
+      padding:32px;
+      height: auto;
+}
+
+
+
+/* 4th row, video */
+
+.thesis  {
+    width: 100%;
+}
+
+.reimagine video  {
+    width: 60%;
+    height: 60%;
+}
+
+.thesis-right  {
+    display: inline-flex;
+    float: right;
+    padding: 10px;
+    width: 40%;
+    height: auto;
+}
+
+.fisma  {
+    display: block;
+    height: auto;
+    padding:16px 0px;
+    background-color: lightgrey;
+}
+
+.now  {
+    display: block;
+    height: auto;
+    padding:16px 0px;
+    background-color: lightgrey;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 890px) {
+  .feature h2 {
+    font-size: 1.125rem;
+    line-height: 1.3;
+    font-weight: normal;
+  }
+
+  .feature h3 {
+    font-size: .875rem;
+    line-height: 1.4;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  #features-section {
+    flex-flow: column;
+    padding: 0;
+  }
+
+  .feature {
+    margin: 0;
+    padding: 1.25rem 1rem 0 1rem;
+  }
+}
+
+
+
+/* Footer */
+
+footer  {
+    background-color: lightgrey;
+    padding: 1.5rem 2rem;
+}
+
+footer .content  {
+    color: dimgrey;
+    display: flex;
+    font-size: .75rem;
+}
+
+footer .copyright  {
+    flex-grow: 1;
+}
+
+footer span  {
+    padding: 4px;
+}
+@media only screen and (min-width: 760px) {
+  footer .content {
+    font-size: .625rem;
+  }
+}
